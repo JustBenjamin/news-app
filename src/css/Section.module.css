@@ -1,0 +1,66 @@
+.section {
+    margin-bottom: 2rem;
+}
+
+.hero {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/image-web-3-mobile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.p {
+    color: var(--Darkgrayishblue);
+    line-height: 1.5rem;
+}
+
+
+
+@media only screen and (min-width: 900px) {
+    .hero {
+        background-image: url('../images/image-web-3-desktop.jpg');
+        margin-bottom: 2rem;
+       
+    }
+
+    .feature {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1.5rem;
+    }
+
+    .headline, .subtext {
+        text-align: left;
+        padding-right: 1rem;
+        
+    }
+
+    .headline {
+        font-size: 4em;
+        margin: 0;
+        width: 75%;
+    }
+
+    .subtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .subtext > p {
+       line-height: 2rem;
+       width: 90%;
+    }
+
+    button {
+        max-width: 50%;
+    }
+
+    
+    
+}

@@ -1,0 +1,25 @@
+
+
+.main {
+    display: grid;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 90vw;
+}
+
+@media only screen and (min-width: 900px) {
+    .main {
+        display: grid;
+        grid-template-columns:  56vw 22vw;
+        column-gap: 2vw;
+
+        
+
+    }
+
+}
+
+

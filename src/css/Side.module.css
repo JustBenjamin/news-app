@@ -1,0 +1,38 @@
+.side {
+    background-color: var(--Verydarkblue);
+    padding: 1rem;
+    color: var(--Offwhite);
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: var(--Softorange);
+    margin-top: 0;
+}
+
+p {
+    color: var(--Offwhite);
+}
+
+.headline {
+    border-bottom: 1px solid var(--Grayishblue) ;
+}
+
+@media only screen and (min-width: 900px) {
+    .side {
+        padding: 2rem;
+      
+        
+    }
+
+    .newposts {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .headline {
+        padding: 1.5rem 0;
+    }
+}

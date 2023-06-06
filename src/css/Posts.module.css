@@ -1,0 +1,61 @@
+.p {
+    color: var(--Darkgrayishblue)
+}
+
+.h2 {
+    color: var(--Grayishblue);
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 35% 60%;
+    margin: 1.5rem 0;
+    column-gap: 1.5rem;
+}
+
+.pc {
+    background-image: url(../images/image-retro-pcs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.laptop {
+    background-image: url(../images/image-top-laptops.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.game {
+    background-image: url(../images/image-gaming-growth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .posts {
+       grid-column: 1 / span 2;
+       
+    }
+
+    .postscontainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        
+
+    }
+
+    .excerpt {
+        padding-right: 1.5rem;
+    }
+
+    
+}
