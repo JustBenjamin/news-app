@@ -37,3 +37,9 @@
     letter-spacing: 0.2rem;
 
   }
+
+  button:hover {
+    cursor: pointer;
+    background-color: var(--Verydarkblue);
+
+  }

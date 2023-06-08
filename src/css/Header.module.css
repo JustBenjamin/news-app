@@ -14,7 +14,7 @@
 
 
 .nav {
- 
+    background-color: var(--Offwhite);
     padding: 1.5em;
     position: absolute;
     z-index: 100;
@@ -29,18 +29,28 @@
 }
 
 
-.closer {
+
+.close {
     display: none;
 }
 
+.open {
+    display: block;
+}
 
 
-.list  {
+.listclose {
+    display: none;
+}
+
+.listopen {
+    display: block;
     line-height: 2.5em;
     list-style: none;
-    background-color: var(--Offwhite);
-    display: none;
+    height: 100vh;
 }
+
+
 
 .item {
     padding: 0 0.5em;
@@ -66,20 +76,29 @@
     }
 
 
-    .opener {
+    .open {
         display: none;
     }
+
+  
     
-    .list {
+    .listclose {
         display: flex;
         justify-content: space-between;
         min-width: 30vw;
         margin: 0;
+        line-height: 2.5em;
+        list-style: none;
+    
 
     }
 
     .nav {
-        padding: 0.5em;
+        padding: 0.5em 0;
+    }
+
+    .item {
+        padding: 0 0.2em;
     }
 
 
